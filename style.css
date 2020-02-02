@@ -37,7 +37,8 @@ body{
 }
 
 .signup{
-    margin: -15px 0px 0px 1200px;
+   float: right;
+   margin: -13px 92px 0px 0px;
 }
 
 .signup a{
