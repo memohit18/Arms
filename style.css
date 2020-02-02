@@ -11,6 +11,11 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 /* class header start */
+
+.header{
+    width: 100%;
+}
+
 .email{
     height:12px ;
     width: 14px;
