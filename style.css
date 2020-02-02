@@ -3,7 +3,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    width: 200px;
       
 }
 
@@ -13,7 +12,8 @@ body{
 /* class header start */
 
 .header{
-    width: 100%;
+    /* background-color: rgba(44, 42, 42, 0.973); */
+    margin: 0px 80px 0px 80px;
 }
 
 .email{
@@ -22,7 +22,7 @@ body{
 }
 
 .email-box{
-    margin: 16px 0px 0px 104px;
+    margin: 16px 0px 0px 6px;
 }
 
 .email-box a{
