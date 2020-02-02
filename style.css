@@ -8,158 +8,38 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+}
+/* class header start */
+.email{
+    height:12px ;
+    width: 14px;
+}
+
+.email-box{
+    margin: 16px 0px 0px 104px;
+}
+
+.email-box a{
+    color: rgb(77, 71, 71);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    font-size: 10px;
 }
 
-/* Strat of Header part */
-.compose-box{
-    margin: 19px 0px 0px 100px;
-}
-
-.inbox {
-    height: 13px;
-    width: 15px;
-}
-
-.compose-e{
-    margin:-18px 0px 0px 17px;
-    font-size: 12px;
-    font-family: monospace;
-    font-weight: bold;
-}
-
-.compose-e a{
-    text-decoration: none;
-    color: rgba(70, 70, 70, 0.904);
+.email-id{
+    margin:-17px 0px 0px 17px;
 }
 
 .signup{
-    float: right;
-    margin:-16px 177px 0px 0px;
-    font-size: 15px;
+    margin: -15px 0px 0px 1277px;
 }
 
 .signup a{
-    text-decoration: none;
+    color: white;
+    border: 1px solid black;
     background-color: black;
-    color: white;
-    padding: 2px 13px 3px 13px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    
+    font-family: 'Teko', sans-serif;
+    padding: 4px 16px 0px 16px;
+    font-size: 20px;
 }
-
-/* End of Header Part */
-
-/* Start of navigation bar */
-nav{
-    height: 80px;
-    width: 100%;
-}
-
-nav ul{
-    float: right;
-    margin-right: 20px;
-
-}
-
-nav ul li{
-    display: inline-block;
-    line-height: 93px;
-    margin: 0px 0px 0px 38px;
-}
-
-nav ul li a{
-    color: black;
-    font-size: 15px;
-
-}
-
-a.active,a:hover{
-    color: coral;
-    transition: .5s;
-}
-
-
-
-
-.logo{
-    color:black;
-    font-size: 32px;
-    line-height: 80px;
-    padding: 0 100px;
-}
-
-
-.logo{
-    font-family: 'Changa', sans-serif;
-}
-
-.logo-bullet{
-    height: 34px;
-    width: 34px;
-    -webkit-transform:rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    margin: 0px 0px -9px -5px;
-}
-
-
-
-/* start of container */
-
-
-.container{
-    height: 100vh;
-    position: relative;
-}
-
-.slideshow-img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 690px;
-    object-fit: cover;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity 0.75s ease-in-out;
-    filter: blur(2px);
-
-}
-
-.info1{
-    color: white;
-    font-family:'Bungee', cursive;
-    font-size: 46px;
-    margin:-526px 0px 0px 777px;
-}
-
-.info2{
-    color: white;
-    font-family:'Bungee', cursive;
-    font-size: 46px;
-    margin: -37px 0px 0px 777px;
-}
-
-.learn-more a{
-    text-decoration: none;
-    color: white;
-    border: 1px solid rgba(255, 145, 0, 0.959) ;
-    border-radius: 25px;
-    padding: 5px 25px;
-    font-size: 22px;
-    background-color:rgba(255, 145, 0, 0.959);
-    margin:6px 0px 0px 781px;
-    font-family: 'Changa', sans-serif;
-}
-
-.learn-more a :hover{
-    background-color: darkgoldenrod;
-    
-}
-/* end of container */
-
 
